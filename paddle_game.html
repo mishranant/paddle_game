@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yo YO game</title>
+	<style type="text/css">
+	.canvasparent{
+		background: yellow;
+		/*margin-top: 20px;*/
+		border-radius:20px;
+		height: 800px;
+		width: 100%;
+		/*margin-right: auto;*/
+	}
+	.canvas{
+		margin-right: auto;
+		/*margin-left: 27%;*/
+		padding: 10px;
+		border-radius:5px;
+		width: 50%;
+	}
+	#score{
+		width: 50%;
+	}
+</style>
+</head>
+<body>
+	<audio src="clink.wav" preload="auto" controls="none" id="hit-sound"></audio>
+	<div class="canvasparent">
+		<div class="canvas">
+			<canvas id="gameplay" height="700" width="800" style="background:white"></canvas>
+		</div>
+		<div id="score">asdf</div>
+	</div>
+	<script type="text/javascript" src="paddle_game.js"> </script>
+</body>
+</html>
